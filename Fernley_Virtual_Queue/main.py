@@ -23,11 +23,12 @@ Enter the number for the option you want to choose
             response = LogSys.login()
             if response == 'esc':
                 loginMenu()
-            user.name = response
-            storeSelector(user.name)
+            else:
+                user.name = response
+                storeSelector(user.name)
         if opt == "2":
             LogSys.signup()
-            loginMenu();
+            loginMenu()
     except:
         print("\n\nThere was an error in the system\nYou have been returned to the Login Menu\n\n")
         loginMenu()
