@@ -13,3 +13,5 @@ User: Example (Case Sensitive)
 5 Digit Password: 12345
 
 You're free to use signup as well, any changes to the slots will be saved for future use locally.
+
+Enjoy using my program.
